@@ -416,3 +416,7 @@ mode "$mode_gaps_outer" {
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
+
+# Add https://github.com/chmln/i3-auto-layout
+exec_always --no-startup-id i3-auto-layout
+
