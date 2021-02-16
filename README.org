@@ -1,0 +1,9 @@
+#+TITLE: Drocha Dotfiles
+
+* Geoclue manjaro configuration
+After install geoclue with the command `sudo pacman geoclue` we need to run the
+following command
+
+#+begin_src sh
+systemctl --user enable --now geoclue-agent.service
+#+end_src
