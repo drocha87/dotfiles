@@ -232,3 +232,4 @@ source /usr/share/nvm/init-nvm.sh
 
 # git bare repository to manage dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+export PATH=/home/drocha/.pyenv/versions/3.7.2/bin:$PATH
